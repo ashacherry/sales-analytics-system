@@ -6,7 +6,7 @@
 
 ## How to Run
 1. Ensure Python 3.8+ is installed
-2. Run:
+2. From Terminal Run:
    python main.py
 
 ## Project Structure
