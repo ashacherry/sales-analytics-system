@@ -1,10 +1,12 @@
-<<<<<<< HEAD
+**Student Name:** Asha Cherian
+**Student ID:** bitsom_ba_25071886
+**Email:** ashacherry@gmail.com
+**Date:** 19-Jan-2026
 # Sales Analytics System
 
 ## How to Run
 1. Ensure Python 3.8+ is installed
-2. Navigate to the project folder
-3. Run:
+2. Run:
    python main.py
 
 ## Project Structure
@@ -13,5 +15,3 @@
 - data/: Input sales data
 - output/: Generated outputs
 =======
-# sales-analytics-system
->>>>>>> 34bf23765b48dbc189d120f67c8a6d7f8182b9a2
