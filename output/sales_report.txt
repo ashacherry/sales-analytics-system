@@ -1,0 +1,37 @@
+============================================================
+SALES ANALYTICS REPORT
+============================================================
+
+VALIDATION SUMMARY
+----------------------------------------
+Valid Transactions   : 10
+Invalid Transactions : 0
+
+REVENUE SUMMARY
+----------------------------------------
+Total Revenue : ₹35621.0
+
+REGION-WISE SALES
+----------------------------------------
+North: ₹1321605.0 | Transactions: 21 | Contribution: 37.46%
+South: ₹889332.0 | Transactions: 13 | Contribution: 25.21%
+West: ₹848902.0 | Transactions: 19 | Contribution: 24.06%
+East: ₹467969.0 | Transactions: 17 | Contribution: 13.27%
+
+TOP SELLING PRODUCTS
+----------------------------------------
+Wireless Mouse | Qty: 19 | Revenue: ₹19934.0
+Mouse | Qty: 12 | Revenue: ₹9450.0
+Laptop Charger | Qty: 1 | Revenue: ₹2994.0
+Webcam | Qty: 1 | Revenue: ₹2986.0
+USB Cable | Qty: 1 | Revenue: ₹257.0
+
+PEAK SALES DAY
+----------------------------------------
+Date: 2024-12-02 | Revenue: ₹882906.0 | Transactions: 5
+
+API ENRICHMENT SUMMARY
+----------------------------------------
+Matched Transactions : 0
+Total Transactions   : 10
+Coverage             : 0.0%
