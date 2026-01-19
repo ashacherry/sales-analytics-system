@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sales Analytics System
 
 ## How to Run
@@ -11,3 +12,6 @@
 - utils/: Helper modules
 - data/: Input sales data
 - output/: Generated outputs
+=======
+# sales-analytics-system
+>>>>>>> 34bf23765b48dbc189d120f67c8a6d7f8182b9a2
