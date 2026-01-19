@@ -1,0 +1,125 @@
+2026-01-05 12:33:04 | file_handler.py
+2026-01-05 12:36:10 | file_handler.py | transactions read: 80
+2026-01-05 12:45:57 | file_handler.py | Transactions read: 80 | Discarded: 1
+2026-01-05 12:48:48 | file_handler.py | Transactions read(valid data rows): 80 | Discarded transcations including header: 1
+2026-01-05 12:49:51 | file_handler.py | Transactions read(valid data rows): 80 | Discarded transcations including header: 1
+2026-01-05 12:50:21 | file_handler.py | rows read(valid data rows): 80 | Discarded rows including header: 1
+2026-01-06 12:32:16 | read_sales_data | rows read: 80 | rows discarded: 1
+2026-01-06 12:32:16 | parse_transactions | rows read: 80 | rows discarded: 0
+2026-01-08 11:35:29 | read_sales_data | rows read: 80 | rows discarded: 1
+2026-01-08 11:35:29 | parse_transactions | rows read: 80 | rows discarded: 0
+2026-01-08 11:40:46 | read_sales_data | rows read: 80 | rows discarded: 1
+2026-01-08 11:40:46 | parse_transactions | rows read: 80 | rows discarded: 0
+2026-01-08 11:44:25 | read_sales_data | rows read: 80 | rows discarded: 1
+2026-01-08 11:44:25 | parse_transactions | rows read: 80 | rows discarded: 0
+2026-01-08 11:48:59 | read_sales_data | rows read: 80 | rows discarded: 1
+2026-01-08 11:48:59 | parse_transactions | rows read: 80 | rows discarded: 0
+
+2026-01-08 11:57:40 | [4/10] Validating transactions...
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+Records after region filter (North): 21
+Records after amount filter: 20
+✓ Valid: 20 | Invalid: 9
+Summary: {'total_input': 80, 'invalid': 9, 'filtered_by_region': 50, 'filtered_by_amount': 1, 'final_count': 20}
+========================================
+SALES ANALYTICS SYSTEM
+========================================
+
+[1/10] Reading sales data...
+✓ Successfully read 80 transactions
+
+[2/10] Parsing and cleaning data...
+✓ Parsed 80 records
+
+[3/10] Filter Options Available:
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+
+Do you want to filter data? (y/n): Enter region (or press Enter to skip): Enter minimum amount (or press Enter to skip): Enter maximum amount (or press Enter to skip): 
+Selected Filters:
+Region: East, Min Amount: 700.0, Max Amount: 800.0
+
+[4/10] Validating transactions...
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+Records after region filter (East): 17
+Records after amount filter: 0
+✓ Valid: 0 | Invalid: 9
+Summary: {'total_input': 80, 'invalid': 9, 'filtered_by_region': 54, 'filtered_by_amount': 17, 'final_count': 0}
+
+========================================
+PROCESS COMPLETE (PARTIAL RUN)
+========================================
+========================================
+SALES ANALYTICS SYSTEM
+========================================
+
+[1/10] Reading sales data...
+✓ Successfully read 80 transactions
+
+[2/10] Parsing and cleaning data...
+✓ Parsed 80 records
+
+[3/10] Filter Options Available:
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+
+Do you want to filter data? (y/n): Enter region (or press Enter to skip): Enter minimum amount (or press Enter to skip): Enter maximum amount (or press Enter to skip): ========================================
+SALES ANALYTICS SYSTEM
+========================================
+
+[1/10] Reading sales data...
+✓ Successfully read 80 transactions
+
+[2/10] Parsing and cleaning data...
+✓ Parsed 80 records
+
+[3/10] Filter Options Available:
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+
+Do you want to filter data? (y/n): Enter region (or press Enter to skip): Enter minimum amount (or press Enter to skip): Enter maximum amount (or press Enter to skip): 
+Selected Filters:
+Region: South, Min Amount: 787.0, Max Amount: 8123.0
+
+[4/10] Validating transactions...
+Available regions: , East, North, South, West
+Min amount: 257.0
+Max amount: 818960.0
+Records after region filter (South): 13
+Records after amount filter: 8
+✓ Valid: 8 | Invalid: 9
+Summary: {'total_input': 80, 'invalid': 9, 'filtered_by_region': 58, 'filtered_by_amount': 5, 'final_count': 8}
+
+[5/10] Analyzing sales data...
+Total Revenue: ₹24055.0
+
+Region-wise Sales:
+South | Sales: ₹24055.0 | Transactions: 8 | Contribution: 100.0%
+
+Top Selling Products:
+Mouse | Quantity: 13 | Revenue: ₹7533.0
+USB Cable | Quantity: 8 | Revenue: ₹1384.0
+Mouse Wireless | Quantity: 4 | Revenue: ₹4224.0
+Laptop Charger | Quantity: 3 | Revenue: ₹6240.0
+Wireless Mouse | Quantity: 2 | Revenue: ₹1308.0
+
+Daily Sales Trend:
+========================================
+SALES ANALYTICS SYSTEM
+Run Timestamp: 2026-01-16 11:35:57
+========================================
+
+[1/10] Reading sales data...
+========================================
+SALES ANALYTICS SYSTEM
+Run Timestamp: 2026-01-16 11:36:35
+========================================
+
+[1/10] Reading sales data...
