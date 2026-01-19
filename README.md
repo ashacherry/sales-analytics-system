@@ -15,3 +15,6 @@
 - data/: Input sales data
 - output/: Generated outputs
 =======
+## Issues found in the input file : https://dummyjson.com/products
+- none of the records are common between this file and the enriched file.
+- I have anyway written the code according to the requirement.
