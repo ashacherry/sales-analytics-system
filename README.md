@@ -4,17 +4,17 @@ This project involves a Python-based Sales Analytics System that processes sales
 
 # Repository Structure
 sales-analytics-system/
-├── README.md
-├── main.py
-├── utils/
-│ ├── file_handler.py
-│ ├── data_processor.py
-│ └── api_handler.py
-├── data/
-│ └── sales_data.txt
-├── output/
-│ └── (generated reports and enriched files)
-└── requirements.txt
+  ├── README.md
+  ├── main.py
+  ├── utils/
+  │   ├── file_handler.py
+  │   ├── data_processor.py
+  │   └── api_handler.py
+  ├── data/
+  │   └── sales_data.txt (provided)
+  ├── output/
+  └── requirements.txt
+
 
 # Technologies Used
 Python 3.x
